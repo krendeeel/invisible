@@ -1,0 +1,21 @@
+.userslist{
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 60px);
+    background: rgb(241, 224, 224);
+    padding: 20px;
+}
+
+.userslist__title{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.userslist__search{
+    align-self: center;
+    width: 50%;
+    margin-bottom: 20px;
+}
+

@@ -1,0 +1,14 @@
+body, html, #root, .wrapper {
+  height: 100%;
+}
+
+body{
+  margin: 0;
+  background: #F4F7FD;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+

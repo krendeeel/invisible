@@ -1,0 +1,30 @@
+.profile{
+    display: flex;
+    padding: 20px;
+    height: calc(100% - 60px);
+    background: rgb(241, 224, 224);
+}
+
+.profile__user-info{
+    border-right: 2px solid rgb(177, 166, 166);
+}
+
+.profile__user-info, .profile__user-rules{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: start;
+    flex: 1;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+
+.profile__user-info > .info__item {
+    margin-bottom: 10px;
+}
+
+.title{
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
